@@ -1,6 +1,7 @@
 class LessonsController < ApplicationController
     def show
     end
+    
     private
 
   helper_method :current_lesson
