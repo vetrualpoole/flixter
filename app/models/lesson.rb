@@ -1,9 +1,10 @@
 class Lesson < ApplicationRecord
     belongs_to :section
+    has_many :sections
     
     mount_uploader :video, VideoUploader
     
-    has_many :lessons
-    has_many :sections
+     
+    
 
 end

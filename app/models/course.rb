@@ -1,10 +1,10 @@
 class Course < ApplicationRecord
     belongs_to :user
+    has_many :sections
     
     mount_uploader :image, ImageUploader
+     
     
-    has_many :courses
-    has_many :sections
     
    
 
